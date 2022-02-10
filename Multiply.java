@@ -6,7 +6,7 @@ public class Multiply {
                 for(int k=0;k<mat1.length;k++){
                     res+=mat1[i][k]*mat2[k][j];
                 }
-                System.out.print(res+"  ");
+                System.out.print(res+"\t");
             }
             System.out.println();
         }
